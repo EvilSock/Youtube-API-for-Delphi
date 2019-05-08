@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+    <input name="searchTxt" type="text" maxlength="512" id="searchTxt" class="searchField"/>
+    <button onclick="search()">Search</button>
+    <script>
+        function search(){
+        window.location = "http://localhost:8080/" + "?search="+document.getElementById("searchTxt").value;
+    }
+    </script>
+</html>
