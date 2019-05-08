@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
   if (req.query.search != null){
     var opts = {
         maxResults: 3,
-        key: 'AIzaSyBRY6Fs6Qa_ladb-elogsHVWpuau-0dBi0'
+        key: 'your api key'
       };
        
       // search(req.query.search, opts, function(err, results) {   results[0].id
