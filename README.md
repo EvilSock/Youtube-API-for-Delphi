@@ -21,7 +21,3 @@ The server is developed to work with delphi. To start the server type in the con
 In the app.js file look for the 16th line. 
 It says api key. You need to get an api key from google. Follow this link to find out how to do that: https://www.slickremix.com/docs/get-api-key-for-youtube/.
 Replace 'api key' in the app.js file line 16 with your own api key.
-
-## Known issues:
-In the example project the start server button does not work. This is because the command line does not have the right privilages. It cannnot write to the data.xml file because and thus will always return whatever is currently written to the file. You have to launch the server manually from the command line.
-Some errors are unhandled so make sure to do error handling in delphi.
